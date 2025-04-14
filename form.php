@@ -8,7 +8,6 @@
 </head>
 
 <body>
-    
 
     <form action="<?= $_SERVER['PHP_SELF'] ?>" method="POST">
         <input type="number" name="value" step="any" required placeholder="Enter value">
