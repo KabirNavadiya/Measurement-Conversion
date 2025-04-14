@@ -2,7 +2,6 @@
 
 class Temperature
 {
-    // values are in kilograms.
     private $units = ['celsius', 'fahrenheit', 'kelvin'];
     public function convert($value, $from, $to)
     {

@@ -1,5 +1,4 @@
 <?php
-
 function handleRequest($converter)
 {
     $result = '';

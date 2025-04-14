@@ -1,6 +1,7 @@
 <?php
 
-class Area{
+class Area
+{
     private $units = [
         'square_meter' => 1,
         'square_kilometer' => 1000000,
@@ -17,7 +18,6 @@ class Area{
         if (!isset($this->units[$from]) || !isset($this->units[$to])) {
             return "Invalid Unit";
         }
-
         $ans = $value * $this->units[$from];
         return $ans / $this->units[$to];
     }

@@ -7,5 +7,3 @@ $units = $converter->getUnits();
 
 echo '<h1>Mass & Weight Converter</h1>';
 include 'form.php';
-
-
