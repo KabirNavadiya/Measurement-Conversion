@@ -19,7 +19,6 @@ class LengthAndDistance
         if (!isset($this->units[$from]) || !isset($this->units[$to])) {
             return "Invalid Unit";
         }
-
         $ans = $value * $this->units[$from];
         return $ans / $this->units[$to];
     }
